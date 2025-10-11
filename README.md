@@ -16,14 +16,16 @@ Aplicació web CRUD (Create, Read, Update, Delete) desenvolupada amb **PHP** i *
 ---
 
 ## Arquitectura del sistema
-┌─────────────────────┐         ┌─────────────────────┐
-│  Servidor Web       │         │  Servidor BBDD      │
-│  192.168.1.10       │◄────────┤  192.168.1.30       │
-│                     │         │                     │
-│  - Apache 2.4       │         │  - MariaDB 10.5     │
-│  - PHP 8.1          │         │  - Base de dades    │
-│  - Aplicació CRUD   │         │    crud_db          │
-└─────────────────────┘         └─────────────────────┘
+┌──────────────────────────────┐         ┌──────────────────────────────┐
+│   Servidor Web               │         │   Servidor Base de Dades     │
+│   192.168.1.10               │◄────────┤   192.168.1.30               │
+│                              │         │                              │
+│   - Apache 2.4               │         │   - MariaDB 10.5             │
+│   - PHP 8.1                  │         │   - Base de dades: crud_db   │
+│   - Aplicació CRUD           │         │                              │
+└──────────────────────────────┘         └──────────────────────────────┘
+│                                          │
+└──────────── mysqli (PHP) ────────────────┘
 
 ### Components:
 - **Servidor Web (192.168.1.10)**: Apache + PHP
@@ -34,16 +36,20 @@ Aplicació web CRUD (Create, Read, Update, Delete) desenvolupada amb **PHP** i *
 
 ## Estructura del projecte
 ASIXc2AC-Projecte/
+│
 ├── app/
-│   ├── db.php          # Configuració connexió BBDD
-│   ├── index.php       # Pàgina principal - Llista usuaris
-│   ├── add.php         # Afegir nou usuari
-│   ├── edit.php        # Editar usuari existent
-│   ├── delete.php      # Eliminar usuari
-│   └── style.css       # Estils CSS (opcional)
-├── images/             # Captures de pantalla
-├── README.md           # Documentació del projecte
-└── .gitignore          # Arxius ignorats per Git
+│   ├── db.php              # Configuració connexió BBDD
+│   ├── index.php           # Pàgina principal - Llista usuaris
+│   ├── add.php             # Afegir nou usuari
+│   ├── edit.php            # Editar usuari existent
+│   ├── delete.php          # Eliminar usuari
+│   └── style.css           # Estils CSS (opcional)
+│
+├── images/                 # Captures de pantalla
+│
+├── README.md               # Documentació del projecte
+│
+└── .gitignore             # Arxius ignorats per Git
 
 ---
 
