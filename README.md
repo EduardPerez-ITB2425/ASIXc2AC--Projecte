@@ -152,37 +152,37 @@ Creació de la base de dades grup8_db al servidor MariaDB.
 
 Comprovació que la base de dades s'ha creat correctament.
 
-![Verificar bases de dades](images/1.png)
+![Verificar bases de dades](images/11.png)
 
 #### 12. Crear taula users
 
 Creació de la taula users amb els camps id, name i email.
 
-![Crear taula users](images/2.png)
+![Crear taula users](images/12.png)
 
 #### 13. Verificar taules creades
 
 Comprovació que la taula users s'ha creat correctament dins de grup8_db.
 
-![Verificar taules](images/3.png)
+![Verificar taules](images/13.png)
 
 #### 14. Crear usuari per accés remot
 
 Creació de l'usuari 'guim' amb permisos per connectar-se des de localhost.
 
-![Crear usuari](images/4.png)
+![Crear usuari](images/14.png)
 
 #### 15. Configurar bind-address de MariaDB
 
 Modificació del fitxer de configuració per permetre connexions remotes.
 
-![Configurar bind-address](images/5.png)
+![Configurar bind-address](images/15.png)
 
 #### 16. Crear usuari root per accés remot
 
 Creació de l'usuari root amb permisos per connectar-se des de la IP 192.168.1.10.
 
-![Crear usuari root remot](images/6.png)
+![Crear usuari root remot](images/16.png)
 
 ---
 
