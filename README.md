@@ -1,21 +1,21 @@
-#  Projecte CRUD - Gestió d'Usuaris
+# Projecte CRUD - Gestió d'Usuaris
 **ASIXc2AC - Administració de Sistemes Informàtics**
 
 ---
 
-##  Descripció del projecte
+## Descripció del projecte
 
 Aplicació web CRUD (Create, Read, Update, Delete) desenvolupada amb **PHP** i **MariaDB** per gestionar una base de dades d'usuaris. El projecte implementa una arquitectura client-servidor amb dos servidors separats.
 
 ### Funcionalitats principals:
--  **Crear** nous usuaris
--  **Llegir** i visualitzar la llista d'usuaris
--  **Actualitzar** informació d'usuaris existents
--  **Eliminar** usuaris de la base de dades
+- **Crear** nous usuaris
+- **Llegir** i visualitzar la llista d'usuaris
+- **Actualitzar** informació d'usuaris existents
+- **Eliminar** usuaris de la base de dades
 
 ---
 
-##  Arquitectura del sistema
+## Arquitectura del sistema
 ┌─────────────────────┐         ┌─────────────────────┐
 │  Servidor Web       │         │  Servidor BBDD      │
 │  192.168.1.10       │◄────────┤  192.168.1.30       │
@@ -32,7 +32,7 @@ Aplicació web CRUD (Create, Read, Update, Delete) desenvolupada amb **PHP** i *
 
 ---
 
-##  Estructura del projecte
+## Estructura del projecte
 ASIXc2AC-Projecte/
 ├── app/
 │   ├── db.php          # Configuració connexió BBDD
@@ -41,8 +41,11 @@ ASIXc2AC-Projecte/
 │   ├── edit.php        # Editar usuari existent
 │   ├── delete.php      # Eliminar usuari
 │   └── style.css       # Estils CSS (opcional)
+├── images/             # Captures de pantalla
 ├── README.md           # Documentació del projecte
 └── .gitignore          # Arxius ignorats per Git
+
+---
 
 ### Descripció dels arxius:
 
@@ -57,7 +60,7 @@ ASIXc2AC-Projecte/
 
 ---
 
-##  Bugs identificats i solucionats
+## Bugs identificats i solucionats
 
 | Arxiu | Línia | Error | Solució |
 |-------|-------|-------|---------|
@@ -65,7 +68,7 @@ ASIXc2AC-Projecte/
 | db.php | 8 | Falta "}" de tancament | Afegit bracket de tancament |
 | script.sql | 1 | "Where false" invàlid | Eliminada clàusula incorrecta |
 | index.php | 16 | method="posts" | Corregit a method="post" |
-| index.php | 11 | Etiqueta <table> duplicada | Eliminada duplicació |
+| index.php | 11 | Etiqueta table duplicada | Eliminada duplicació |
 | add.php | 6 | VALUES (*, ?) | Corregit a VALUES (?, ?) |
 | edit.php | 13 | UPDATE...where | Corregit a UPDATE...SET |
 | delete.php | 4 | DELETE * FROM | Corregit a DELETE FROM |
@@ -157,9 +160,9 @@ Creació de la base de dades crud_db i configuració dels permisos d'accés remo
 
 ---
 
-### Resultat final
+## Resultat final
 
-#### 12. Aplicació web funcionant
+### Aplicació web funcionant
 
 Interfície de l'aplicació CRUD en funcionament amb gestió d'usuaris.
 
@@ -169,7 +172,7 @@ Interfície de l'aplicació CRUD en funcionament amb gestió d'usuaris.
 
 ---
 
-### Verificació de la instal·lació
+## Verificació de la instal·lació
 
 Per comprovar que tot funciona correctament:
 
@@ -177,3 +180,23 @@ Per comprovar que tot funciona correctament:
 2. Provar afegir un usuari nou
 3. Verificar que es guarda correctament a la base de dades
 4. Provar les funcions d'editar i eliminar
+
+---
+
+## Tecnologies utilitzades
+
+- **Ubuntu Server** 20.04 LTS
+- **Apache** 2.4
+- **PHP** 8.1
+- **MariaDB** 10.5
+- **HTML5** i **CSS3**
+- **Git** per control de versions
+
+---
+
+
+## Data
+
+Octubre 2025
+
+---
