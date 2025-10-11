@@ -194,21 +194,6 @@ Comprovació de la connexió des del servidor web al servidor de base de dades.
 
 ![Connexió exitosa a MariaDB](images/11.png)
 
-*Connexió establerta correctament des del servidor web (192.168.1.10) al servidor de base de dades (192.168.1.30).*
----
-
-### Configuració del Servidor de Base de Dades (192.168.1.30)
-
-
-
-
-#### . Connexió remota a MariaDB
-
-Establiment de connexió des del servidor web al servidor de base de dades.
-
-![Connexió a MariaDB](images/10.png)
-
-
 ---
 
 ## Resultat final
