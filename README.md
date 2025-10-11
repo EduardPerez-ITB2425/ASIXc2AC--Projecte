@@ -173,6 +173,18 @@ Creació de l'usuari 'guim' i assignació de tots els privilegis sobre la base d
 
 ![Crear usuari i permisos](images/17.png)
 
+#### 15. Configurar bind-address de MariaDB
+
+Modificació del fitxer 50-server.cnf per permetre connexions remotes canviant bind-address a 0.0.0.0.
+
+![Configurar bind-address](images/18.png)
+
+#### 16. Crear usuari root per accés remot
+
+Creació de l'usuari root amb permisos per connectar-se des de la IP 192.168.1.10.
+
+![Crear usuari root remot](images/19.png)
+
 ---
 
 ## Verificació de la connexió
