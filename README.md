@@ -142,11 +142,67 @@ Creació dels diferents arxius PHP necessaris per a l'aplicació CRUD.
 
 ![Crear arxius PHP](images/9.png)
 
+#### 10. Crear base de dades a MariaDB
+
+Creació de la base de dades grup8_db al servidor MariaDB.
+
+![Crear base de dades](images/11.png)
+
+#### 11. Verificar bases de dades existents
+
+Comprovació que la base de dades s'ha creat correctament.
+
+![Verificar bases de dades](images/1.png)
+
+#### 12. Crear taula users
+
+Creació de la taula users amb els camps id, name i email.
+
+![Crear taula users](images/2.png)
+
+#### 13. Verificar taules creades
+
+Comprovació que la taula users s'ha creat correctament dins de grup8_db.
+
+![Verificar taules](images/3.png)
+
+#### 14. Crear usuari per accés remot
+
+Creació de l'usuari 'guim' amb permisos per connectar-se des de localhost.
+
+![Crear usuari](images/4.png)
+
+#### 15. Configurar bind-address de MariaDB
+
+Modificació del fitxer de configuració per permetre connexions remotes.
+
+![Configurar bind-address](images/5.png)
+
+#### 16. Crear usuari root per accés remot
+
+Creació de l'usuari root amb permisos per connectar-se des de la IP 192.168.1.10.
+
+![Crear usuari root remot](images/6.png)
+
+---
+
+## Verificació de la connexió
+
+### Provar connexió a la base de dades
+
+Comprovació de la connexió des del servidor web al servidor de base de dades.
+
+![Connexió exitosa a MariaDB](images/11.png)
+
+*Connexió establerta correctament des del servidor web (192.168.1.10) al servidor de base de dades (192.168.1.30).*
 ---
 
 ### Configuració del Servidor de Base de Dades (192.168.1.30)
 
-#### 10. Connexió remota a MariaDB
+
+
+
+#### . Connexió remota a MariaDB
 
 Establiment de connexió des del servidor web al servidor de base de dades.
 
