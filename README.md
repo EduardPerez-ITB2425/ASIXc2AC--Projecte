@@ -28,21 +28,8 @@ Aplicació web CRUD (Create, Read, Update, Delete) desenvolupada amb **PHP** i *
 ---
 
 ## Estructura del projecte
-ASIXc2AC-Projecte/
-│
-├── app/
-│   ├── db.php              # Configuració connexió BBDD
-│   ├── index.php           # Pàgina principal - Llista usuaris
-│   ├── add.php             # Afegir nou usuari
-│   ├── edit.php            # Editar usuari existent
-│   ├── delete.php          # Eliminar usuari
-│   └── style.css           # Estils CSS (opcional)
-│
-├── images/                 # Captures de pantalla
-│
-├── README.md               # Documentació del projecte
-│
-└── .gitignore             # Arxius ignorats per Git
+
+![Clonar repositori](images/24.png)
 
 ---
 
