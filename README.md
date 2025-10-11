@@ -70,6 +70,7 @@ ASIXc2AC-Projecte/
 | edit.php | 13 | UPDATE...where | Corregit a UPDATE...SET |
 | delete.php | 4 | DELETE * FROM | Corregit a DELETE FROM |
 
+---
 
 ## Instal·lació i configuració
 
