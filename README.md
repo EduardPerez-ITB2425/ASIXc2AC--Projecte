@@ -16,16 +16,8 @@ Aplicació web CRUD (Create, Read, Update, Delete) desenvolupada amb **PHP** i *
 ---
 
 ## Arquitectura del sistema
-┌──────────────────────────────┐         ┌──────────────────────────────┐
-│   Servidor Web               │         │   Servidor Base de Dades     │
-│   192.168.1.10               │◄────────┤   192.168.1.30               │
-│                              │         │                              │
-│   - Apache 2.4               │         │   - MariaDB 10.5             │
-│   - PHP 8.1                  │         │   - Base de dades: crud_db   │
-│   - Aplicació CRUD           │         │                              │
-└──────────────────────────────┘         └──────────────────────────────┘
-│                                          │
-└──────────── mysqli (PHP) ────────────────┘
+
+![Clonar repositori](images/20.png)
 
 ### Components:
 - **Servidor Web (192.168.1.10)**: Apache + PHP
