@@ -149,6 +149,17 @@ Creació de la base de dades grup8_db al servidor MariaDB.
 
 ![Crear base de dades](images/13.png)
 
+#### 11. Verificar bases de dades existents
+
+Comprovació que la base de dades grup8_db s'ha creat correctament.
+
+![Verificar bases de dades](images/14.png)
+
+#### 12. Crear taula users
+
+Creació de la taula users amb els camps id, name i email.
+
+![Crear taula users](images/15.png)
 
 
 ---
