@@ -17,7 +17,8 @@ Aplicació web CRUD (Create, Read, Update, Delete) desenvolupada amb **PHP** i *
 
 ## Arquitectura del sistema
 
-![Clonar repositori](images/20.png)
+![Clonar repositori](images/23.png)
+
 
 ### Components:
 - **Servidor Web (192.168.1.10)**: Apache + PHP
