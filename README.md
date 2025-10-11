@@ -167,6 +167,12 @@ Comprovació que la taula users s'ha creat correctament dins de grup8_db.
 
 ![Verificar taules](images/16.png)
 
+#### 14. Crear usuari i assignar permisos
+
+Creació de l'usuari 'guim' i assignació de tots els privilegis sobre la base de dades grup8_db.
+
+![Crear usuari i permisos](images/17.png)
+
 ---
 
 ## Verificació de la connexió
