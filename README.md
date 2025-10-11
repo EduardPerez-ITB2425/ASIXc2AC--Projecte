@@ -152,11 +152,6 @@ Establiment de connexió des del servidor web al servidor de base de dades.
 
 ![Connexió a MariaDB](images/10.png)
 
-#### 11. Configurar base de dades i permisos
-
-Creació de la base de dades crud_db i configuració dels permisos d'accés remot.
-
-![Configurar base de dades](images/11.png)
 
 ---
 
