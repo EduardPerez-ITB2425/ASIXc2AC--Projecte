@@ -161,6 +161,11 @@ Creació de la taula users amb els camps id, name i email.
 
 ![Crear taula users](images/15.png)
 
+#### 13. Verificar taules creades
+
+Comprovació que la taula users s'ha creat correctament dins de grup8_db.
+
+![Verificar taules](images/16.png)
 
 ---
 
